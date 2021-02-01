@@ -1,0 +1,14 @@
+<odoo>
+    <record id="academy_course_view_form" model="ir.ui.view">
+        <field name="name">academy.course.form</field>
+        <field name="model">academy.course</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button string="Confirm" name="action_confirm" states="draft" type="object"
+                            class="oe_highlight"/>
+                </header>
+            </form>
+        </field>
+    </record>
+</odoo>

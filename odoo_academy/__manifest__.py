@@ -11,7 +11,8 @@
     'depends': ['base'],
     'data': [
         # data
-      
+        'views/course.xml',
+        'views/menu.xml'
 
         # views
         
